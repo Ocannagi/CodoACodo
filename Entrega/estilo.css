@@ -1,0 +1,75 @@
+
+:root {
+    --miverdeoscuro: #63A430;
+    --miverde: #7BCB3C;
+    --miverdedisabled:#9CC47C;
+    --bs-link-color: white;
+    --bs-link-hover-color: #63A430;
+  }
+
+
+.NavItemsIzq{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%
+}
+
+.Logo{
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+.carousel-caption-right {
+    position: absolute;
+    right: 10%;
+    bottom: 15rem;
+    left: 55%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: right;
+    font-weight:600;
+  }
+
+
+.otro{
+    padding-top: 1rem;
+    text-align: center;
+}
+
+.otro2{
+    padding-top: 2rem;
+    text-align: center;
+}
+
+.subrayado{
+    text-decoration: underline dotted;
+}
+
+.miboton {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: var(--miverde);
+    --bs-btn-border-color: var(--miverde);
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: var(--miverdeoscuro);
+    --bs-btn-hover-border-color: var(--miverdeoscuro);
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: var(--miverdeoscuro);
+    --bs-btn-active-border-color: var(--miverde);
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: var(--miverdedisabled);
+    --bs-btn-disabled-border-color: var(--miverdedisabled);
+  }
+
+
+  footer{
+      background-color: #044160;
+      margin-top: 1em;
+      color: white;
+      padding: 1em;
+  }
+
+
